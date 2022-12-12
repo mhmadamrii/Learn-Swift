@@ -8,10 +8,38 @@ print(myVariable)
 let myConstant = 10
 print(myConstant)
 
-// if the initial value doesn't provide enough information, specify the type by writing it after the variable
+
+
+
+
+
+
+// declare multiple constants or multiple variables on a single line, separated by commas
+var x = 1, y = 5, z = 10
+print("look at this", y)
+
+
+
+
+
+
+
+
+
+// if the initial value doesn't provide enough information, specify the type by writing it after the variable(Annotations)
 let implicitInteger = 70
 let implicitDouble = 70.0
 let explicitDouble: Double = 70
+
+var welcomeMsg: String = "Hello I am come from swift annotations"
+print(welcomeMsg)
+
+
+
+
+
+
+
 
 // convert type to another type, explicitly make an instance of the desired type
 let label = "The width is "
@@ -20,6 +48,34 @@ let widthLabel = label + String(width)
 
 print(widthLabel)
 
+
+
+
+
+
+
+
+// simple way to include values in string(convert) by writing the values in parentheses
+let apples = 5
+let orangess = 10
+let appleSumarry = "I have \(apples) apples"
+
+print(appleSumarry)
+
+
+
+
+
+
+
+
+
+
+
+// function (block of code that performs a specific task)
+func greet() {
+    return print("Hello there")
+}
 
 
 
