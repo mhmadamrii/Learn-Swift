@@ -68,6 +68,37 @@ print(appleSumarry)
 
 
 
+// if statement
+var a = 200
+var b = "Hello"
+
+if a < 100 {
+    print("the condition is true")
+} else {
+    print("the condition is false")
+}
+
+
+if a <= 200 {
+    print("again")
+} else if a == 200 {
+    print("good")
+}
+
+
+// switch statement
+switch b {
+    case "Tes":
+        print("is a 200")
+    case "Hello":
+        print("is a greeting")
+    default:
+        print("some say")
+}
+
+
+
+
 
 
 
@@ -93,3 +124,6 @@ print(experimentFloat)
 let experimentString1 = "The mass was "
 let experimentString2 = 50
 let experimentConcat = experimentString1 + String(experimentString2) //it should be experimentString1 + experimentString2
+
+
+
